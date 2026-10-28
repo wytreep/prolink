@@ -64,7 +64,7 @@ Arquitectura en **3 capas** (presentación → negocio → datos), con caché lo
 
 | Capa | Tecnología |
 |---|---|
-| Presentación | React Native + Expo (SDK 52+), React Navigation, Context API / hooks |
+| Presentación | React Native + Expo SDK 58, Expo Router, Context API / hooks |
 | Negocio | Node.js + Express + TypeScript, patrón MVC (`routes`, `controllers`, `services`, `models`, `middlewares`) |
 | Datos | MongoDB Atlas (Mongoose) + AsyncStorage como caché offline |
 | Seguridad | JWT para sesiones, contraseñas cifradas con bcrypt |
@@ -134,6 +134,7 @@ Docente: **Leidy Johanna Carvajal** · Institución Universitaria Antonio José 
 - [Taller 1 — Sprint 0, Requerimientos y Diseño de Software (PDF)](docs/Taller1_ProLink.pdf)
 - [Propuesta de proyecto, formato APA 7 (DOCX)](docs/ProLink_Propuesta_APA7.docx)
 - [ADR-0001 — Base de datos única](docs/adr/0001-mongodb-como-base-de-datos-unica.md)
+- [App móvil — instalación, modo demo y conexión con la API](mobile/README.md)
 - Gestión del backlog: Jira, proyecto **PRL**
 
 > La propuesta inicial contemplaba SQLite en el cliente; el Taller 1 la reemplaza por MongoDB Atlas + AsyncStorage (ver ADR-0001).
