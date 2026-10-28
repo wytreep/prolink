@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "ProLink",
+    "slug": "prolink",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "prolink",
+    "userInterfaceStyle": "light",
+    "primaryColor": "#1B3A6B",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "co.edu.uniajc.prolink"
+    },
+    "android": {
+      "package": "co.edu.uniajc.prolink",
+      "adaptiveIcon": {
+        "backgroundColor": "#1B3A6B",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-secure-store",
+      "expo-sharing",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#1B3A6B",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 180
+        }
+      ],
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
